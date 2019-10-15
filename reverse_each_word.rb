@@ -1,4 +1,4 @@
 def reverse_each_word(string)
   array = string.split
-  array.reverse_each { |n| print "#{n} " }
+  print array
 end
